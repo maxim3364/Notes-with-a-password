@@ -1,0 +1,9 @@
+Для работы "Заметки с паролем" необходимо:
+1 - запустить папку "Notes with a password" в приложении PyCharm.
+2 - открыть приложение MySQL Workbench.
+3 - создать базу данных "ugis".
+4 - поменять в коде пароль "12345678" на тот, что установлен в MySQL Workbench.
+5- добавить таблицу "vh" со столбцами: ("id" INT, pk, nn, ai), ("login" VARCHAR(255)), ("password" VARCHAR(255))
+6- добавить таблицу "diary_entries" со столбцами: ("id" INT, pk, nn, ai), ("entry_date" VARCHAR(255)), ("entry_text" VARCHAR(255))
+7- добавить данные в таблицу "vh".
+8 - запустить приложение.
